@@ -12,9 +12,7 @@ class Checkout extends StatelessWidget {
           return snapshot.data['cart items'].length > 0
               ? Column(
                   children: <Widget>[
-                    /
                     Expanded(child: checkoutListBuilder(snapshot)),
-
                     RaisedButton(
                       onPressed: () {
                         Navigator.pushNamed(context, '/Confirmation');
