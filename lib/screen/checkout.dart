@@ -12,10 +12,7 @@ class Checkout extends StatelessWidget {
           return snapshot.data['cart items'].length > 0
               ? Column(
                   children: <Widget>[
-                    /// The [checkoutListBuilder] has to be fixed
-                    /// in an expanded widget to ensure it
-                    /// doesn't occupy the whole screen and leaves
-                    /// room for the the RaisedButton
+                    /
                     Expanded(child: checkoutListBuilder(snapshot)),
 
                     RaisedButton(

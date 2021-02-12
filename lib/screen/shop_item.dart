@@ -27,7 +27,7 @@ class ShopItemsWidget extends StatelessWidget {
       builder: (context, snapshot) {
         return snapshot.data["shop items"].length > 0
             ? shopItemsListBuilder(snapshot)
-            : Center(child: Text("All items in shop have been taken"));
+            : Center(child: Text("No Items has been selected"));
       },
     );
   }
