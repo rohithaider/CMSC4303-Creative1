@@ -10,7 +10,7 @@ class CartItemsBloc {
       {'name': 'Book', 'price': 10, 'id': 1},
       {'name': 'Pen', 'price': 5, 'id': 2},
       {'name': 'Eraser', 'price': 2, 'id': 3},
-      {'name': 'Pensil', 'price': 1, 'id': 4},
+      {'name': 'Pencil', 'price': 1, 'id': 4},
       {'name': 'Papers', 'price': 5, 'id': 5},
       {'name': 'Water Bottles', 'price': 13, 'id': 6},
       {'name': 'Flash Drive', 'price': 18, 'id': 7},
