@@ -7,7 +7,7 @@ class Confirmation extends StatelessWidget {
       appBar: AppBar(
         title: Text('Confirmation page'),
       ),
-      body: Text('Thank you for your purchase!'.),
+      body: Text('Thank you for your purchase with us!'),
     );
   }
 }
